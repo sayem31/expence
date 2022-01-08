@@ -1,0 +1,340 @@
+@media all and (max-width:1199px){
+	.header_side_btn a {
+		padding: 8px 18px;
+	}
+	.btn_style_2, 
+	.btn_style_1{
+		padding:9px 22px;
+	}
+	.bank_text h3{
+		font-size:37px;
+	}
+	.about_title h2{
+		font-size:60px;
+	}
+	.latest_area p span{
+		font-size: 33px;
+	}
+}
+@media all and (min-width:992px){
+	.menu ul{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
+@media all and (max-width:991px){
+	.header_side_btn{
+		display: none;
+	}
+
+	.menu ul {
+		position: absolute;
+		width: 100%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		top: 90px;
+		text-align: center;
+		z-index: 9999;
+		padding: 35px 0;
+		background: #FF0844;
+		left: 0;
+		display: none;
+	}
+	.menu ul li a{
+		padding:5px 0;
+	}
+	.mobile_menu{
+		display: block;
+	}
+	.menu {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 0%;
+		        flex: 0 0 0%;
+	}
+	.header_side_btn {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 60%;
+		        flex: 0 0 60%;
+	}
+	.banner_content_area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.right_banner_content {
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+	}
+	.left_banner_txt h1 {
+		text-align: center;
+	}
+	.banner_single_btn {
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: start;
+	}
+	.btn_style_2{
+		margin: 0 10px;
+	}
+	.trusted_top h5 {
+		max-width: 88%;
+	}
+	.banking_title h5 {
+		font-size: 38px;
+	}
+	.banking_title p {
+	max-width: 84%;
+		margin: auto;
+	}
+	.banking_left_item {
+		height: 600px;
+	}
+	.footer_items {
+		max-width: inherit;
+	}
+	.footer_right_itema h4, 
+	.footer_right_itemb h4{
+		font-size:26px;
+	}
+	.banking_items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.banking_right_item {
+		margin-top: 30px;
+	}
+	.about_title h2{
+		font-size: 55px;
+	}
+	.banking_right_icon h4{
+		font-size: 23px;
+	}
+	.scroll_down {
+		position: absolute;
+		bottom: -50%;
+		left: 68%;
+		content: "";
+	}
+}
+@media all and (max-width:767px){
+	.header_side_btn a {
+		font-size: 12px;
+	}
+	.trusted_top h5 {
+		max-width: inherit;
+	}
+	.trusted_item img {
+		max-width: 125px;
+	}
+	.banking_title h5 {
+		font-size: 28px;
+	}
+	.about_us {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.about_right {
+		margin-top: 30px;
+	}
+	.footer_items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.footer_right {
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+		margin-left:0;
+	}
+	.footer_right_itema {
+		margin-right: 22px;
+	}
+	.footer_left {
+		margin-top: 20px;
+	}
+	.trusted_top h5{
+		font-size:29px;
+	}
+	.banking_main_area {
+		padding: 35px 0;
+	}
+	.latest_area p span{
+		font-size: 35px;
+	}
+	.about_title h2{
+		font-size: 50px;
+	}
+	.banking_right_icon h4{
+		font-size: 23px;
+	}
+	.latest_area {
+		padding: 80px 25px;
+	}
+	.left_banner_txt h1 {
+		margin-top: 35px;
+	}
+}
+@media all and (max-width:575px){
+	.header_side_btn {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 65%;
+		        flex: 0 0 65%;
+	}
+	.left_banner_txt h1 {
+		margin-top: 45px;
+	}
+	.btn_style_2, .btn_style_1 {
+		padding: 5px 15px;
+		font-size: 15px;
+	}
+	.trusted_item img {
+		max-width: 125px;
+	}
+	.trusted_item {
+		margin-bottom: 25px;
+	}
+	.banking_main_area {
+		padding: 20px 0;
+	}
+	.banking_title h5{
+		line-height: 40px;
+	}
+	.about_title h2{
+		font-size: 45px;
+	}
+	.latest_main_area {
+		padding: 50px 0;
+	}
+	.trusted_top h5{
+		margin-bottom: 45px
+	}
+	.trusted_top h5 {
+		font-size: 28px;
+	}
+	.banking_title h5 {
+		font-size: 23px;
+	}
+	.bank_text h3 {
+		font-size: 30px;
+	}
+	.banking_right_icon h4 {
+		font-size: 20px;
+	}
+	.latest_title h3 {
+		font-size: 32px;
+	}
+	.latest_area p span {
+		font-size: 30px;
+	}
+	.trusted_items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.about_us {
+		width: 95%;
+		margin: auto;
+	}
+	.latest_area {
+		padding: 40px 25px;
+	}
+	.latest_area p span {
+		font-size: 22px;
+		line-height: 1.5;
+	}
+	.latest_main_area {
+		width: 95%;
+		margin: auto;
+	}
+	.about_us {
+		width: 95%;
+		margin: auto;
+	}
+	.scroll_down {
+		bottom: -25%;
+		left: 80%;
+	}
+
+}
+@media all and (max-width:450px){
+	.banner_single_btn {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.btn_style_2, 
+	.btn_style_1 {
+		padding: 10px 25px;
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.trusted_item img {
+		max-width: 85px;
+	}
+	.trusted_item {
+		margin-bottom: 20px;
+	}
+	.bank_text h3 {
+		font-size: 21px;
+		line-height: 35px;
+		padding: 42px 0 32px 0;
+	}
+	.banking_right_icon h4{
+		font-size:20px;
+	}
+	.about_title h2 {
+		font-size: 43px;
+	}
+	.latest_title h3 {
+		font-size: 28px;
+	}
+	.latest_area p span {
+		font-size: 26px;
+		line-height: 37px;
+	}
+	.footer_right_itema ul li a, 
+	.footer_right_itemb ul li a {
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.footer_right_itema h4, 
+	.footer_right_itemb h4 {
+		font-size: 22px;
+	}
+	.trusted_top h5 {
+		margin-bottom: 35px;
+		font-size: 19px;
+		line-height: 35px;
+	}
+	.demo a {
+		left: 67%;
+	}
+	.left_banner_txt h1 {
+		font-size: 55px;
+	}
+	.banking_title h5 {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom:15px;
+	}
+	.latest_area {
+		padding: 80px 0px;
+	}
+	.scroll_down {
+		bottom: -28%;
+		left: 85%;
+	}
+}
